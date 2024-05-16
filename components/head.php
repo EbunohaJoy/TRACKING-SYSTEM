@@ -36,10 +36,6 @@
     <link rel="stylesheet" id="color" href="css/colors/defualt.css">
     <!-- For Style Switcher -->
     <link rel="stylesheet" id="theme-color" type="text/css" href="#" />
-    <!-- Revolution Slider 5.x CSS settings -->
-    <!-- For This Page Only -->
-	<link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
-	<link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
     <!-- Animation Css -->
     <link href="css/animate.min.css" rel="stylesheet">
     <!-- Menu Hover -->

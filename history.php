@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -83,8 +84,9 @@
         </div>
         <div class="clr"> </div>
     </div>
+
     <!-- =-=-=-=-=-=-= HEADER =-=-=-=-=-=-= -->
-    <section class="top-bar">
+   <section class="top-bar">
         <div class="container">
             <div class="left-text nav-left pull-left">
                 <p><span>Opening Hours :</span> Monday to Saturday - 8am to 5pm</p>
@@ -193,8 +195,8 @@
                                     <li><a href="blog-detail-3.html">Post Full Width</a> </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-animations="fadeInUp">Pages <span class="fa fa-angle-down"></span></a>
-                                <ul class="dropdown-menu">
+                            <li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-animations="fadeInUp">Pages <span class="fa fa-angle-down"></span></a>
+                               <ul class="dropdown-menu">
                                     <li><a href="404.html">Error Page</a> </li>
                                     <li><a href="team.html">Our Team </a> </li>
                                     <li><a href="icons.html">Icons</a> </li>
@@ -205,7 +207,7 @@
                                     <li><a href="profile.html">Profile</a></li>
                                 </ul>
                             </li>
-                           <li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-animations="fadeInUp">Cargo Tracking <span class="fa fa-angle-down"></span></a>
+                            <li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-animations="fadeInUp">Cargo Tracking <span class="fa fa-angle-down"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="index-5.html">Tracking Landing Page</a> </li>
                                     <li><a href="index-4.html">Tracking Classic Page </a> </li>
@@ -226,21 +228,20 @@
     </header>
     <!-- =-=-=-=-=-=-= HEADER END =-=-=-=-=-=-= -->
 
-
     <!-- =-=-=-=-=-=-= PAGE BREADCRUMB =-=-=-=-=-=-= -->
     <section class="breadcrumbs-area parallex">
         <div class="container">
             <div class="row">
                 <div class="page-title">
                     <div class="col-sm-12 col-md-6 page-heading text-left">
-                        <h3>Our Awesome Work</h3>
-                        <h2>Page Not Found</h2>
+                        <h3>track your order </h3>
+                        <h2>Order Tracking</h2>
                     </div>
                     <div class="col-sm-12 col-md-6 text-right">
                         <ul class="breadcrumbs">
                             <li><a href="#">home</a></li>
                             <li><a href="#">pages</a></li>
-                            <li><a href="#">404</a></li>
+                            <li><a href="#">tracking</a></li>
                         </ul>
                     </div>
                 </div>
@@ -249,27 +250,115 @@
     </section>
     <!-- =-=-=-=-=-=-= PAGE BREADCRUMB END =-=-=-=-=-=-= -->
 
-
-    <!-- =-=-=-=-=-=-= Error Page =-=-=-=-=-=-= -->
-    <section id="error-page" class="section-padding-70">
+    <!-- =-=-=-=-=-=-= Tracking History =-=-=-=-=-=-= -->
+    <section id="order-tracking" class="section-padding-80">
         <div class="container">
-
             <!-- Row -->
             <div class="row">
-                <div class="col-md-5 col-sm-6 col-xs-12">
-                    <div class="error-text">404</div>
-                    <div class="error-title">Oops, the page you are looking for does not exit.</div>
-                    <p>Fusce pretium nulla et purus malesuada feugiat sed vel mauris tincidunt vehicula lorem vel hendrerit justo praesent aliquam maximus imperdiet integer sagittis leo</p>
+                <div class="col-sm-12 col-xs-12 col-md-12">
+                    <!-- Search Filter -->
+                    <div class="tracking-search">
+            <div class="input-group" id="adv-search">
+                <input type="text" class="form-control" placeholder="Track Your Shipment" />
+                <div class="input-group-btn">
+                    <div class="btn-group" role="group">
+                        <div class="dropdown dropdown-lg">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                            <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                <form class="form-horizontal" role="form">
+                                  <div class="form-group">
+                                    <label for="filter">Filter by</label>
+                                    <select class="form-control">
+                                        <option value="0" selected>Order History</option>
+                                        <option value="1">Delivered</option>
+                                        <option value="2">Shipped</option>
+                                        <option value="3">Pending</option>
+                                        <option value="4">Canceled</option>
+                                    </select>
+                                  </div>
+                                </form>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </div>
                 </div>
-                <div class="col-md-7 col-sm-6 col-xs-12">
-                    <img alt="" class="img-responsive" src="images/404.png">
+            </div>
+</div>
+                    <!-- Search Filter End -->
+                    <!-- Tracking History -->
+                        <div class="block-content">
+        <div class="table-responsive">
+            <table class="table table-clean-paddings margin-bottom-0">
+                <thead>
+                    <tr>
+                        <th>Customer</th>
+                        <th>Shipped From</th>
+                        <th>Shipping Id</th>
+                         <th>Destination</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                           <div class="contact-container"><a href="#">Muhammad Umair</a> <span>on Aug 19, 2016</span></div>
+                        </td>
+                        <td>London</td>
+                          <td>SW-95-21</td>
+                            <td>New York</td>
+                            <td><span class="label label-success label-transparent">Delivered</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <div class="contact-container"><a href="#">Muhammad Umair</a> <span>on Aug 19, 2016</span></div>
+                        </td>
+                        <td>London</td>
+                          <td>SW-95-21</td>
+                            <td>New York</td>
+                            <td><span class="label label-warning label-transparent">Shipped</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <div class="contact-container"><a href="#">Muhammad Umair</a> <span>on Aug 19, 2016</span></div>
+                        </td>
+                        <td>London</td>
+                          <td>SW-95-21</td>
+                            <td>New York</td>
+                            <td><span class="label label-danger  label-transparent">Canceled</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <div class="contact-container"><a href="#">Muhammad Umair</a> <span>on Aug 19, 2016</span></div>
+                        </td>
+                        <td>London</td>
+                          <td>SW-95-21</td>
+                            <td>New York</td>
+                            <td><span class="label label-primary label-transparent">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <div class="contact-container"><a href="#">Muhammad Umair</a> <span>on Aug 19, 2016</span></div>
+                        </td>
+                        <td>London</td>
+                          <td>SW-95-21</td>
+                            <td>New York</td>
+                            <td><span class="label label-success label-transparent">Delivered</span></td>
+                    </tr>
+                    
+             
+                </tbody>
+            </table>
+        </div>
+    </div>
+                    <!-- Tracking History End -->
                 </div>
             </div>
             <!-- Row End -->
         </div>
         <!-- end container -->
     </section>
-    <!-- =-=-=-=-=-=-= Our Team End =-=-=-=-=-=-= -->
+    <!-- =-=-=-=-=-=-= Tracking History End =-=-=-=-=-=-= -->
+
 
     <!-- =-=-=-=-=-=-= FOOTER =-=-=-=-=-=-= -->
     <footer class="footer-area">
@@ -372,20 +461,19 @@
             </div>
         </div>
     </footer>
-
+	
 	<!-- =-=-=-=-=-=-= Quote Modal =-=-=-=-=-=-= -->
 	<div data-target="#request-quote" data-toggle="modal" class="quote-button hidden-xs">
 		  <a class="btn btn-primary" href="javascript:void(0)"><i class="fa fa-envelope"></i></a>
 	</div>
 	<!-- =-=-=-=-=-=-= Quote Modal End =-=-=-=-=-=-= -->
-	
+
     <!-- =-=-=-=-=-=-= JQUERY =-=-=-=-=-=-= -->
     <script src="js/jquery.min.js"></script>
     <!-- Bootstrap Core Css  -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Dropdown Hover  -->
-     <script src="js/bootstrap-dropdownhover.min.js"></script>
-    <!-- Jquery Easing -->
+     <script src="js/bootstrap-dropdownhover.min.js"></script><!-- Jquery Easing -->
     <script type="text/javascript" src="js/easing.js"></script>
     <!-- Jquery Counter -->
     <script src="js/jquery.countTo.js"></script>
